@@ -13,4 +13,4 @@ A machine learning target scorer iOS application.
 
 ## Images
 ![Example 1](./images/example1.png)
-![Example 1](./images/example1.png)
+![Example 2](./images/example2.png)

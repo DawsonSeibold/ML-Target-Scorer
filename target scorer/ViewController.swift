@@ -65,7 +65,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("\(OpenCVWrapper.openCVVersionString())")
         
         //Read the current csv file
         path = try? FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)

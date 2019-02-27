@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		474BCD1D2117A8F6004EC691 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 474BCD1C2117A8F6004EC691 /* OpenCVWrapper.mm */; };
 		474BCD202117B74A004EC691 /* UIPercentageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474BCD1F2117B74A004EC691 /* UIPercentageBar.swift */; };
 		4792B9FB2117E9B000070434 /* targetScoring.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4792B9FA2117E9B000070434 /* targetScoring.mlmodel */; };
 		4793411E21168C8200E97DC1 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4793411D21168C8200E97DC1 /* CSVParser.swift */; };
-		47AB0C5E2117A63F00392D3E /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AB0C5D2117A63F00392D3E /* opencv2.framework */; };
 		47CC375020715B660038D602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC374F20715B660038D602 /* AppDelegate.swift */; };
 		47CC375220715B660038D602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC375120715B660038D602 /* ViewController.swift */; };
 		47CC375520715B660038D602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CC375320715B660038D602 /* Main.storyboard */; };
@@ -25,13 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		474BCD1B2117A8F6004EC691 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
-		474BCD1C2117A8F6004EC691 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
-		474BCD1E2117A96A004EC691 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		474BCD1F2117B74A004EC691 /* UIPercentageBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPercentageBar.swift; sourceTree = "<group>"; };
 		4792B9FA2117E9B000070434 /* targetScoring.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = targetScoring.mlmodel; sourceTree = "<group>"; };
 		4793411D21168C8200E97DC1 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
-		47AB0C5D2117A63F00392D3E /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		47CC374C20715B660038D602 /* target scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "target scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CC374F20715B660038D602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47CC375120715B660038D602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +38,7 @@
 		47DA2C2D2117A8420092ACFD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		47DA2C2F2117A84B0092ACFD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		47DA2C312117A8530092ACFD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		47F4EB7C2071B57400534C06 /* target scorer-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "target scorer-Bridging-Header.h"; sourceTree = "<group>"; };
+		A94BF52E222634A300D58E3C /* target scorer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "target scorer-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +51,6 @@
 				47DA2C2E2117A8420092ACFD /* CoreMedia.framework in Frameworks */,
 				47DA2C2C2117A83B0092ACFD /* CoreGraphics.framework in Frameworks */,
 				47DA2C2A2117A8330092ACFD /* AssetsLibrary.framework in Frameworks */,
-				47AB0C5E2117A63F00392D3E /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,11 +85,8 @@
 				47CC375620715B660038D602 /* Assets.xcassets */,
 				47CC375820715B660038D602 /* LaunchScreen.storyboard */,
 				47CC375B20715B660038D602 /* Info.plist */,
+				A94BF52E222634A300D58E3C /* target scorer-Bridging-Header.h */,
 				4792B9FA2117E9B000070434 /* targetScoring.mlmodel */,
-				47F4EB7C2071B57400534C06 /* target scorer-Bridging-Header.h */,
-				474BCD1B2117A8F6004EC691 /* OpenCVWrapper.h */,
-				474BCD1C2117A8F6004EC691 /* OpenCVWrapper.mm */,
-				474BCD1E2117A96A004EC691 /* PrefixHeader.pch */,
 			);
 			path = "target scorer";
 			sourceTree = "<group>";
@@ -104,7 +94,6 @@
 		47DA2C272117A8220092ACFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47AB0C5D2117A63F00392D3E /* opencv2.framework */,
 				47DA2C312117A8530092ACFD /* Accelerate.framework */,
 				47DA2C2F2117A84B0092ACFD /* CoreFoundation.framework */,
 				47DA2C2D2117A8420092ACFD /* CoreMedia.framework */,
@@ -190,7 +179,6 @@
 				47CC375220715B660038D602 /* ViewController.swift in Sources */,
 				4792B9FB2117E9B000070434 /* targetScoring.mlmodel in Sources */,
 				4793411E21168C8200E97DC1 /* CSVParser.swift in Sources */,
-				474BCD1D2117A8F6004EC691 /* OpenCVWrapper.mm in Sources */,
 				47CC375020715B660038D602 /* AppDelegate.swift in Sources */,
 				474BCD202117B74A004EC691 /* UIPercentageBar.swift in Sources */,
 			);
