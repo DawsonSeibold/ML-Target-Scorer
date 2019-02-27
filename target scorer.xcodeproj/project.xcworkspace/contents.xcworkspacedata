@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:target scorer.xcodeproj">
+      location = "self:/Users/carissa/Documents/Dawson/Dev/target scorer/target scorer.xcodeproj">
    </FileRef>
 </Workspace>

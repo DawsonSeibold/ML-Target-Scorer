@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  target scorer
 //
-//  Created by Carissa Seibold on 4/1/18.
+//  Created by Dawson Seibold on 4/1/18.
 //  Copyright © 2018 Smile App Development. All rights reserved.
 //
 
